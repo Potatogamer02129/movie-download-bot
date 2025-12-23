@@ -16,3 +16,6 @@ venv/
 
 # Playwright
 playwright-report/
+
+#files
+api.txt

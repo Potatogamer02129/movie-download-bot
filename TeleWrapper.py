@@ -3,7 +3,8 @@ from telebot.formatting import escape_html
 from test2 import get_download_link
 import requests
 import os
-API_KEY = "8292061339:AAHecAEeZOa4CCkIAGvhmgID00Y-F-AMTec"
+with open ("api.txt") as f:
+    API_KEY = f.read()
 
 bot = telebot.TeleBot(API_KEY)
 
